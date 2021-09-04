@@ -14,7 +14,6 @@ function App() {
     await setDoc(doc(db, "visits", "id-visits"), {
       total: count
     });
-    console.log(count)
     setVisits(count)
   } 
   
